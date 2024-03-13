@@ -1,0 +1,57 @@
+
+.content {
+	min-width: 1000px;
+	height: relative;
+	width: 100%;
+	margin-right: 0;
+}
+.topcontent {
+	margin-top: 5px;
+	height: relative;
+	width: 100%;
+	display: inline-block;
+}
+.midcontent {
+	height: relative;
+	width: 100%;
+	display: inline-block;
+}
+#invstock h6{
+	color: #069C10;
+}
+#invexpired h6 {
+	color: #CF0D06;
+}
+.tiles h5{
+	color: #6B6E6B;
+}
+#clock, clock p{
+	font-weight: bold;
+}
+.tiles {
+	text-align: center;
+	width: 300px;
+	float: left;
+	margin: 25px;
+	padding: 30px;
+	border-style: outset;
+	border-radius: 3px;
+}
+.contentheader {
+	width: 100%;
+	padding: 20px;
+	border-left-color: #2196F3;
+	border-width: .5px;
+	border-left-width: 100px;
+	border-left-style: solid;
+	border-top-style: solid;
+	border-bottom-style: outset;
+}
+.tiles:active {
+		animation: myanimation .1s;
+	}
+	@keyframes myanimation {
+		0%{left:0px; top:0px;}
+		50%{left:3px; top:3px;}
+		100%{left:3px; top:3px;}
+	}
